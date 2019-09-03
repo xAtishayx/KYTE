@@ -51,17 +51,17 @@ header nav ul li a:hover
 }
 .img1
 {
-	background-image:url(..//images/abb3.png);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(..//images/abb3.png);
 	background-size: 100% 100%;
 }
 .img2
 {
-	background-image:url(..//images/ana.png);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(..//images/ana.png);
 	background-size: 100% 100%;
 }
 .img3
 {
-	background-image:url(..//images/no3.png);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(..//images/no3.png);
 	background-size: 100% 100%;
 }
 .slider,.slider ul,.slider ul li
@@ -523,8 +523,22 @@ header nav ul li a:hover
 	text-align: center;
 	padding: 10%;
 }
+.main2{
+font-family:verdana;
+	height:455px;
 
-
+    color:#eb5656;
+        margin-left:34%;
+    line-height: 15px;
+}
+.but{
+    background: #12aa12;
+    color:white;
+    width:140px;
+    height: 35px;
+    border-radius: 5px;
+    border:none;
+}
 
 
 
